@@ -4,7 +4,6 @@ WORKDIR /tmp
 
 RUN # Install compile dependencies
 RUN apt-get update
-RUN apt-get install -y wget
 
 RUN apt-get install -y  \
     git build-essential \
